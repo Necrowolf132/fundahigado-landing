@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'Futurestd';
+    font-style: normal;
+    font-weight: 200;
+    src: url(fonts/futurastd-light.otf);
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+    font-family: 'Futurestd';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/futurastd-medium.otf);
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+    font-family: 'Futurestd';
+    font-style: normal;
+    font-weight: bold;
+    src: url(fonts/futurastd-book.otf);
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+    font-family: 'Futurestd';
+    font-style: normal;
+    font-weight: 900;
+    src: url(fonts/futurastd-heavy.otf);
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+body {
+    font-family: Futurestd, 'Futurestd', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+} 
+    .header {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        -webkit-transition: background 0.4s, all 0.3s linear;
+        -o-transition: background 0.4s, all 0.3s linear;
+        transition: background 0.4s, all 0.3s linear;
+    }
+    .header.navbar_fixed .main_menu {
+        position: fixed;
+        width: 100%;
+        top: -70px;
+        left: 0;
+        right: 0;
+        background-color: #f7f7f7;
+        -webkit-transform: translateY(70px);
+        -ms-transform: translateY(70px);
+        transform: translateY(70px);
+        -webkit-transition: background 500ms ease, -webkit-transform 500ms ease;
+        transition: background 500ms ease, -webkit-transform 500ms ease;
+        -o-transition: transform 500ms ease, background 500ms ease;
+        transition: transform 500ms ease, background 500ms ease;
+        transition: transform 500ms ease, background 500ms ease, -webkit-transform 500ms ease;
+        -webkit-transition: transform 500ms ease, background 500ms ease;
+        -webkit-box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+      }
+    .img1  {
+        width: 15rem;
+    }
+    .img2 {
+        width: 11rem;
+    }
+    .home_banner_area {
+        position: relative;
+        z-index: 1;
+        min-height: 1100px;
+    }
+    .home_banner_area.super-home {
+        overflow: hidden;
+    }
+    .home_banner_area.super-home .container-min-alto {
+        min-height: 693px;
+    }
+    .home_banner_area .banner_inner {
+        position: relative;
+        width: 100%;
+        min-height: 1097px;
+        background-color: rgba(0, 0, 0, 0.28);
+        padding-bottom: 4rem;
+    }
+    .home_banner_area.super-home .banner_inner {
+        height: 100%;
+    }
+
+    .home_banner_area .banner_inner .overlay {
+        position: absolute;
+        background: url(img/fotofondo1.jpg) no-repeat scroll;
+        background-size: cover;
+        background-position: top right;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        height: 123%;
+    }
+
+    .home_banner_area .banner_inner .banner_content {
+        padding-top: 80px;
+        max-width: 1500px;    
+    }
+
+    .home_banner_area .banner_inner .banner_content .col-lg-5 {
+        -ms-flex-item-align: center;
+        align-self: center;
+        vertical-align: middle;
+    }
+
+
+    .home_banner_area .banner_inner .banner_content p {
+        text-transform: uppercase;
+        font-size: 47px;
+        line-height: 64px;
+        font-family: "Futurestd",sans-serif;
+        font-weight: 200;
+        color: #f7f7f7;
+    }
+    .home_banner_area .banner_inner .banner_content p span{
+        font-size: 46px;
+        line-height: 24px;
+        font-family: "Futurestd", sans-serif;
+        font-weight: 900;
+        color: #f7f7f7;
+    }
+    .center-parrafo {
+        position: relative;
+        bottom: 1px;
+    }
+    .center-parrafo h2 {
+        text-transform: uppercase;
+        font-size: 42px;
+        line-height: 66px;
+        font-family: "Futurestd", sans-serif;
+        font-weight: 900;
+        color: #f7f7f7;
+    }
+    .center-parrafo p {
+        font-size: 23px;
+        line-height: 37px;
+        font-family: "Futurestd",sans-serif;
+        font-weight: 200;
+        color: #f7f7f7;
+    }
+    .area-botones {
+        background-image: url(img/fondoRojo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto 100%;
+        position: relative;
+        z-index: 200;
+        overflow-y: visible;
+        padding: 100px 0px;
+        margin-top: -38px;
+        min-height: 1170px;
+    }
+    .area-botones h1 {
+        text-transform: uppercase;
+        font-size: 60px;
+        line-height: 75px;
+        font-family: Futurestd,sans-serif;
+        font-weight: 300;
+        color: #f7f7f7;     
+    }
+    .area-botones p{
+        font-size: 31px;
+        line-height: 45px;
+        letter-spacing: 4px;
+        font-family: Futurestd,sans-serif;
+        font-weight: 200;
+        color: #f7f7f7;
+    }
+    .area-botones h1 span {
+        font-family: "Futurestd",sans-serif;
+        font-weight: 900;
+        color: #f7f7f7;     
+    }
+    .area-botones p span{
+        text-transform: uppercase;
+        font-size: 31px;
+        line-height: 37px;
+        font-family: "Futurestd",sans-serif;
+        font-weight: 900;
+        color: #f7f7f7;
+    }
+    .area-botones .container {
+        max-width: 1650px;
+    }
+    .area-botones .carta-boton {
+        max-width: 359px;
+        background-color: #b3b3b3;
+        border-radius: 20px;
+        min-width: 359px;
+    }
+
+    .area-botones .carta-boton img {
+        width: 260px;
+    }
+    .area-botones .carta-boton h3 {
+        text-transform: uppercase;
+        font-size: 31px;
+        line-height: 37px;
+        font-family: "Futurestd",sans-serif;
+        font-weight: 700;
+        color: #f7f7f7;
+    }
+    .area-botones .carta-boton button {
+        background-color: #c1272d;
+        border-color: #c1272d;
+        border-radius: 5px;
+        box-shadow: 0px 5px 9px -4px #000;
+        padding: 7px 33px;
+        font-size: 31px;
+        line-height: 37px;
+        font-family: "Futurestd",sans-serif;
+        font-weight: 700;
+        color: #f7f7f7;
+        transition: 0.3s all ease-in;
+    }
+    .area-botones .carta-boton button:hover {
+        background-color: #85171b;
+    }
+    .myfooter h1 {
+        text-transform: uppercase;
+        font-size: 49px;
+        line-height: 47px;
+        font-family: 'Futurestd',sans-serif;
+        color: #c1272d;
+        font-weight: 800;
+        margin-bottom: 26px;
+    }
+@media (max-width: 575.98px) {
+    .img1 {
+        width: 13rem;
+    }
+}
+@media (max-width: 767px) {
+    .myfooter img {
+        max-width: 270px !important;
+        width: auto !important;
+    }
+}
+@media (min-width: 1900px) {
+    .area-botones {
+        background-color: #c1272d;
+        margin-top: 0px;
+        background-image: none;
+    }
+}
+@media (max-width: 829px) {
+    .area-botones {
+        background-color: #c1272d;
+        background-image: none;
+    }
+}
