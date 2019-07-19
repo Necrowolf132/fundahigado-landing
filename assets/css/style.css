@@ -66,10 +66,10 @@ body {
         box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
       }
     .img1  {
-        width: 15rem;
+        width: 13rem;
     }
     .img2 {
-        width: 11rem;
+        width: 9rem;
     }
     .home_banner_area {
         position: relative;
@@ -80,7 +80,7 @@ body {
         overflow: hidden;
     }
     .home_banner_area.super-home .container-min-alto {
-        min-height: 693px;
+        min-height: 750px;
     }
     .home_banner_area .banner_inner {
         position: relative;
@@ -95,20 +95,19 @@ body {
 
     .home_banner_area .banner_inner .overlay {
         position: absolute;
-        background: url(img/fotofondo1.jpg) no-repeat scroll;
+        background: url(img/fotofondo1.jpg) top right no-repeat;
         background-size: cover;
-        background-position: top right;
         left: 0;
         right: 0;
         top: 0;
         bottom: 0;
         z-index: -1;
-        height: 123%;
+        height: 100%;
     }
 
     .home_banner_area .banner_inner .banner_content {
         padding-top: 80px;
-        max-width: 1500px;    
+        max-width: 1300px;    
     }
 
     .home_banner_area .banner_inner .banner_content .col-lg-5 {
@@ -120,7 +119,7 @@ body {
 
     .home_banner_area .banner_inner .banner_content p {
         text-transform: uppercase;
-        font-size: 47px;
+        font-size: 42px;
         line-height: 64px;
         font-family: "Futurestd",sans-serif;
         font-weight: 200;
@@ -139,8 +138,8 @@ body {
     }
     .center-parrafo h2 {
         text-transform: uppercase;
-        font-size: 42px;
-        line-height: 66px;
+        font-size: 39px;
+        line-height: 58px;
         font-family: "Futurestd", sans-serif;
         font-weight: 900;
         color: #f7f7f7;
@@ -156,17 +155,17 @@ body {
         background-image: url(img/fondoRojo.png);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: auto 100%;
+        background-size: cover;
         position: relative;
         z-index: 200;
         overflow-y: visible;
-        padding: 100px 0px;
+        padding: 90px 0;
         margin-top: -38px;
-        min-height: 1170px;
+        min-height: 1063px;
     }
     .area-botones h1 {
         text-transform: uppercase;
-        font-size: 60px;
+        font-size: 54px;
         line-height: 75px;
         font-family: Futurestd,sans-serif;
         font-weight: 300;
@@ -197,21 +196,21 @@ body {
         max-width: 1650px;
     }
     .area-botones .carta-boton {
-        max-width: 359px;
+        max-width: 250px;
         background-color: #b3b3b3;
         border-radius: 20px;
-        min-width: 359px;
+        min-width: 250px;
     }
 
     .area-botones .carta-boton img {
-        width: 260px;
+        width: 200px;
     }
     .area-botones .carta-boton h3 {
         text-transform: uppercase;
-        font-size: 31px;
-        line-height: 37px;
-        font-family: "Futurestd",sans-serif;
-        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        font-family: Futurestd,sans-serif;
+        font-weight: 900;
         color: #f7f7f7;
     }
     .area-botones .carta-boton button {
@@ -232,16 +231,19 @@ body {
     }
     .myfooter h1 {
         text-transform: uppercase;
-        font-size: 49px;
-        line-height: 47px;
+        font-size: 40px;
+        line-height: 22px;
         font-family: 'Futurestd',sans-serif;
         color: #c1272d;
         font-weight: 800;
         margin-bottom: 26px;
     }
+    .myfooter .img-redes {
+        max-width: 73px;
+    }
 @media (max-width: 575.98px) {
     .img1 {
-        width: 13rem;
+        width: 12rem;
     }
 }
 @media (max-width: 767px) {

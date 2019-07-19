@@ -165,18 +165,18 @@ $(document).ready(function () {
             var loque
             $(window).scroll(function() {
                 var scroll = $(window).scrollTop();   
-                if (scroll >= nav_offset_top && scroll <= 1900 ) {
+                if (scroll >= nav_offset_top && scroll <= 800 ) {
                     $(".img1").fadeOut(200,()=>{
                         $(".header").addClass("navbar_fixed");
                         $(".img2").fadeIn(200);
                     });
-                } else if (scroll <= nav_offset_top && scroll <= 1900 ) {
+                } else if (scroll <= nav_offset_top && scroll <= 800 ) {
                     $(".img2").fadeOut(200,()=>{
                         $(".img1").fadeIn(200);
                         $(".header").removeClass("navbar_fixed");
                         $(".header").fadeIn(200);
                     });
-                } else if (scroll >= nav_offset_top && scroll >= 1900 ) {
+                } else if (scroll >= nav_offset_top && scroll >= 800 ) {
                     $(".header").fadeOut();
                 }
             });

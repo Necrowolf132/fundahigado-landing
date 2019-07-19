@@ -81,7 +81,7 @@ gulp.task('zip', function() {
         '!_pgbackup/**',
         '!bootstrap/**',
         '!assets/**',
-        '!./fundaigado.zip',
+        '!./fundahigado.zip',
         '!.git/**',
         '!js/**',
         '!Landing page_ES (1).PDF',
