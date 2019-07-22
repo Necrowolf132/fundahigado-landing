@@ -271,6 +271,9 @@ body {
         font-size: 42px;
         line-height: 24px;
     }
+    .home_banner_area .banner_inner {
+        padding-top: 125px;
+    }
 }
 @media (min-width: 1900px) {
     .area-botones {
@@ -285,3 +288,4 @@ body {
         background-image: none;
     }
 }
+ 
