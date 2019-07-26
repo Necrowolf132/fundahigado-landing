@@ -290,6 +290,11 @@ body {
         transform: translateY(80px);
     }
 }
+@media (max-width: 991px) {
+    .home_banner_area .banner_inner .overlay {
+          background: url(img/fotofondo1.jpg) top left no-repeat;
+    }
+}
 @media (min-width: 1900px) {
     .area-botones {
         background-color: #c1272d;
