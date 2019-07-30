@@ -250,6 +250,24 @@ body {
     .area-botones .carta-boton button:hover {
         background-color: #85171b;
     }
+    .area-botones .boton-otros button {
+        background-color: #f7f7f7;
+        border-color: #f7f7f7;
+        border-radius: 5px;
+        letter-spacing: 8px;
+        box-shadow: 4px 5px 9px -4px #000;
+        font-family: Futurestd,sans-serif;
+        padding: 8px 22px;  
+        font-size: 38px;
+        line-height: 40px;
+        font-weight: 900;
+        color: #c1272d;
+        transition: .3s all ease-in;
+    }
+    .area-botones .boton-otros button:hover {
+        background-color: #b3b3b3;
+        border-color: #b3b3b3;
+    }
     .myfooter h1 {
         text-transform: uppercase;
         font-size: 40px;
