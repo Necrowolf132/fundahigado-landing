@@ -234,7 +234,7 @@ body {
         font-weight: 900;
         color: #f7f7f7;
     }
-    .area-botones .carta-boton button {
+    .area-botones .carta-boton a {
         background-color: #c1272d;
         border-color: #c1272d;
         border-radius: 5px;
@@ -250,7 +250,7 @@ body {
     .area-botones .carta-boton button:hover {
         background-color: #85171b;
     }
-    .area-botones .boton-otros button {
+    .area-botones .boton-otros a {
         background-color: #f7f7f7;
         border-color: #f7f7f7;
         border-radius: 5px;
